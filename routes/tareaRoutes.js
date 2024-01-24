@@ -17,4 +17,5 @@ router.route('/:id')
     .delete(checkAuth, eliminarTarea)
 router.post('/estado/:id', checkAuth, cambiarEstado)
 
+console.log('asas')
 export default router
